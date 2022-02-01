@@ -13,5 +13,9 @@ class Circle:
         return circumference
 
 my_circle = Circle(radius= 3)
+my_different_circle = Circle(radius= 9)
+
 print(my_circle.get_Area())
 print(my_circle.get_Circumference())
+print(my_different_circle.get_Area())
+print(my_different_circle.get_Circumference())
